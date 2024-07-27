@@ -1,0 +1,35 @@
+// This keymap is a variant of the regular AZERTY french keyboard.
+// It aims to make developers' life easier by remapping symbols.
+
+default partial alphanumeric_keys
+xkb_symbols "main" {
+    include "fr(basic)"
+
+    name[Group1]="French (DevZTY)";
+
+    // First row
+    key <TLDE>	{ [  twosuperior,            VoidSymbol,         VoidSymbol,       VoidSymbol ] }; //   ²
+    key <AE10>	{ [           at,                     0,             agrave,           Agrave ] }; //   @ 0 à À
+    key <AE02>	{ [       eacute,                     2,         VoidSymbol,           Eacute ] }; //   é 2   É
+    key <AE03>	{ [     quotedbl,                     3,         VoidSymbol,       VoidSymbol ] }; //   " 3
+    key <AE04>	{ [   apostrophe,                     4,         VoidSymbol,       VoidSymbol ] }; //   ' 4
+    key <AE05>	{ [   asciitilde,                     5,         VoidSymbol,       VoidSymbol ] }; //   ~ 5
+    key <AE06>	{ [        minus,                     6,         VoidSymbol,        0x1002011 ] }; //   - 6   - (tiret insécable)
+    key <AE07>	{ [       egrave,                     7,         VoidSymbol,           Egrave ] }; //   è 7   È
+    key <AE08>	{ [   underscore,                     8,         VoidSymbol,       VoidSymbol ] }; //   _ 8
+    key <AE09>	{ [          bar,                     9,           ccedilla,       VoidSymbol ] }; //   | 9 ç
+    key <AE11>	{ [     asterisk,             braceleft,         VoidSymbol,       VoidSymbol ] }; //   * {
+    key <AE12>	{ [        equal,            braceright,               plus,       VoidSymbol ] }; //   = } +
+
+    // Second row
+    key <AD11>	{ [  asciicircum,           bracketleft,    dead_circumflex,       VoidSymbol ] }; //   ^ [ ^
+    key <AD12>	{ [       dollar,          bracketright,     dead_diaeresis,       VoidSymbol ] }; //   $ ] ¨
+
+    // Third row
+    key <AC11>	{ [    parenleft,               percent,             ugrave,       VoidSymbol ] }; //   ( % ù
+    key <BKSL>	{ [   parenright,            numbersign,              grave,       VoidSymbol ] }; //   ) # `
+
+    // Fourth row
+    key <AB09>  { [        colon,                 slash,         VoidSymbol,       VoidSymbol ] }; //   : /
+    key <AB10>  { [       exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! \
+};
