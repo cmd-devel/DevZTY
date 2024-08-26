@@ -16,7 +16,7 @@ xkb_symbols "main" {
     key <AE05>	{ [   asciitilde,                     5,         VoidSymbol,       VoidSymbol ] }; //   ~ 5
     key <AE06>	{ [        minus,                     6,         VoidSymbol,        0x1002011 ] }; //   - 6   - (tiret insécable)
     key <AE07>	{ [       egrave,                     7,         VoidSymbol,           Egrave ] }; //   è 7   È
-    key <AE08>	{ [   underscore,                     8,         VoidSymbol,       VoidSymbol ] }; //   _ 8
+    key <AE08>	{ [        grave,                     8,         VoidSymbol,       VoidSymbol ] }; //   ` 8
     key <AE09>	{ [          bar,                     9,           ccedilla,       VoidSymbol ] }; //   | 9 ç
     key <AE11>	{ [     asterisk,             braceleft,         VoidSymbol,       VoidSymbol ] }; //   * {
     key <AE12>	{ [        equal,            braceright,               plus,       VoidSymbol ] }; //   = } +
@@ -27,9 +27,10 @@ xkb_symbols "main" {
 
     // Third row
     key <AC11>	{ [    parenleft,               percent,             ugrave,       VoidSymbol ] }; //   ( % ù
-    key <BKSL>	{ [   parenright,            numbersign,              grave,       VoidSymbol ] }; //   ) # `
+    key <BKSL>	{ [   parenright,            numbersign,         VoidSymbol,       VoidSymbol ] }; //   ) #
 
     // Fourth row
     key <AB09>  { [        colon,                 slash,         VoidSymbol,       VoidSymbol ] }; //   : /
-    key <AB10>  { [       exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! \
+    key <AB10>  { [       exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! backslash
+    key <SPCE>  { [        space,            underscore,         VoidSymbol,       VoidSymbol ] }; //   ␣ _
 };
