@@ -32,5 +32,5 @@ xkb_symbols "main" {
     // Fourth row
     key <AB09>  { [        colon,                 slash,         VoidSymbol,       VoidSymbol ] }; //   : /
     key <AB10>  { [       exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! backslash
-    key <SPCE>  { [        space,            underscore,         VoidSymbol,       VoidSymbol ] }; //   ␣ _
+    key <SPCE>  { [        space,            underscore,              minus,       VoidSymbol ] }; //   ␣ _ -
 };
