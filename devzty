@@ -33,6 +33,7 @@ xkb_symbols "main" {
     key <AC01>	{ [           q,                      Q,                  4,       VoidSymbol ] }; // q Q 4
     key <AC02>	{ [           s,                      S,                  5,       VoidSymbol ] }; // s S 5
     key <AC03>	{ [           d,                      D,                  6,       VoidSymbol ] }; // d D 6
+    key <AC04>	{ [           f,                      F,             period,       VoidSymbol ] }; // f F .
     key <AC11>	{ [    parenleft,               percent,             ugrave,       VoidSymbol ] }; //   ( % ù
     key <BKSL>	{ [   parenright,            numbersign,         VoidSymbol,       VoidSymbol ] }; //   ) #
 
