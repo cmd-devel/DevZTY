@@ -45,3 +45,15 @@ xkb_symbols "main" {
     key <AB10>  { [       exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! backslash
     key <SPCE>  { [        space,            underscore,              minus,       VoidSymbol ] }; //   ␣ _ -
 };
+    // Keypad (special symbols to be used for custom shortcuts)
+    key <KP0>   { [         eacute,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP1>   { [         egrave,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP2>   { [    ecircumflex,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP3>   { [         iacute,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP4>   { [         igrave,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP5>   { [    icircumflex,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP6>   { [         uacute,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP7>   { [         ugrave,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP8>   { [    ucircumflex,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+    key <KP9>   { [         ograve,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
+};
