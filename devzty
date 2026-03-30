@@ -8,43 +8,43 @@ xkb_symbols "main" {
     name[Group1]="French (DevZTY)";
 
     // First row
-    key <TLDE>	{ [  twosuperior,            VoidSymbol,         VoidSymbol,       VoidSymbol ] }; //   ²
-    key <AE10>	{ [           at,                     0,             agrave,           Agrave ] }; //   @ 0 à À
-    key <AE02>	{ [       eacute,                     2,         VoidSymbol,           Eacute ] }; //   é 2   É
-    key <AE03>	{ [     quotedbl,                     3,         VoidSymbol,       VoidSymbol ] }; //   " 3
-    key <AE04>	{ [   apostrophe,                     4,         VoidSymbol,       VoidSymbol ] }; //   ' 4
-    key <AE05>	{ [   asciitilde,                     5,         VoidSymbol,       VoidSymbol ] }; //   ~ 5
-    key <AE06>	{ [        minus,                     6,         VoidSymbol,        0x1002011 ] }; //   - 6   - (tiret insécable)
-    key <AE07>	{ [       egrave,                     7,         VoidSymbol,           Egrave ] }; //   è 7   È
-    key <AE08>	{ [        grave,                     8,         VoidSymbol,       VoidSymbol ] }; //   ` 8
-    key <AE09>	{ [          bar,                     9,           ccedilla,       VoidSymbol ] }; //   | 9 ç
-    key <AE11>	{ [     asterisk,             braceleft,         VoidSymbol,       VoidSymbol ] }; //   * {
-    key <AE12>	{ [        equal,            braceright,               plus,       VoidSymbol ] }; //   = } +
+    key <TLDE>	{ [    twosuperior,            VoidSymbol,         VoidSymbol,       VoidSymbol ] }; //   ²
+    key <AE10>	{ [             at,                     0,             agrave,           Agrave ] }; //   @ 0 à À
+    key <AE02>	{ [         eacute,                     2,         VoidSymbol,           Eacute ] }; //   é 2   É
+    key <AE03>	{ [       quotedbl,                     3,         VoidSymbol,       VoidSymbol ] }; //   " 3
+    key <AE04>	{ [     apostrophe,                     4,         VoidSymbol,       VoidSymbol ] }; //   ' 4
+    key <AE05>	{ [     asciitilde,                     5,         VoidSymbol,       VoidSymbol ] }; //   ~ 5
+    key <AE06>	{ [          minus,                     6,         VoidSymbol,        0x1002011 ] }; //   - 6   - (tiret insécable)
+    key <AE07>	{ [         egrave,                     7,         VoidSymbol,           Egrave ] }; //   è 7   È
+    key <AE08>	{ [          grave,                     8,         VoidSymbol,       VoidSymbol ] }; //   ` 8
+    key <AE09>	{ [            bar,                     9,           ccedilla,       VoidSymbol ] }; //   | 9 ç
+    key <AE11>	{ [       asterisk,             braceleft,         VoidSymbol,       VoidSymbol ] }; //   * {
+    key <AE12>	{ [          equal,            braceright,               plus,       VoidSymbol ] }; //   = } +
 
     // Second row
-    key <AD01>	{ [            a,                     A,                  1,       VoidSymbol ] }; // a A 1
-    key <AD02>	{ [            z,                     Z,                  2,       VoidSymbol ] }; // z Z 2
-    key <AD03>	{ [            e,                     E,                  3,       VoidSymbol ] }; // e E 3
-    key <AD04>	{ [            r,                     R,                  0,       VoidSymbol ] }; // r R 0
-    key <AD11>	{ [  asciicircum,           bracketleft,    dead_circumflex,       VoidSymbol ] }; //   ^ [ ^
-    key <AD12>	{ [       dollar,          bracketright,     dead_diaeresis,       VoidSymbol ] }; //   $ ] ¨
+    key <AD01>	{ [              a,                     A,                  1,       VoidSymbol ] }; // a A 1
+    key <AD02>	{ [              z,                     Z,                  2,       VoidSymbol ] }; // z Z 2
+    key <AD03>	{ [              e,                     E,                  3,       VoidSymbol ] }; // e E 3
+    key <AD04>	{ [              r,                     R,                  0,       VoidSymbol ] }; // r R 0
+    key <AD11>	{ [    asciicircum,           bracketleft,    dead_circumflex,       VoidSymbol ] }; //   ^ [ ^
+    key <AD12>	{ [         dollar,          bracketright,     dead_diaeresis,       VoidSymbol ] }; //   $ ] ¨
 
     // Third row
-    key <AC01>	{ [           q,                      Q,                  4,       VoidSymbol ] }; // q Q 4
-    key <AC02>	{ [           s,                      S,                  5,       VoidSymbol ] }; // s S 5
-    key <AC03>	{ [           d,                      D,                  6,       VoidSymbol ] }; // d D 6
-    key <AC04>	{ [           f,                      F,             period,       VoidSymbol ] }; // f F .
-    key <AC11>	{ [    parenleft,               percent,             ugrave,       VoidSymbol ] }; //   ( % ù
-    key <BKSL>	{ [   parenright,            numbersign,         VoidSymbol,       VoidSymbol ] }; //   ) #
+    key <AC01>	{ [              q,                     Q,                  4,       VoidSymbol ] }; // q Q 4
+    key <AC02>	{ [              s,                     S,                  5,       VoidSymbol ] }; // s S 5
+    key <AC03>	{ [              d,                     D,                  6,       VoidSymbol ] }; // d D 6
+    key <AC04>	{ [              f,                     F,             period,       VoidSymbol ] }; // f F .
+    key <AC11>	{ [      parenleft,               percent,             ugrave,       VoidSymbol ] }; //   ( % ù
+    key <BKSL>	{ [     parenright,            numbersign,         VoidSymbol,       VoidSymbol ] }; //   ) #
 
     // Fourth row
-    key <AB01>	{ [            w,                     W,                  7,        VoidSymbol ] }; // w W 7
-    key <AB02>	{ [            x,                     X,                  8,        VoidSymbol ] }; // x X 8
-    key <AB03>	{ [            c,                     C,                  9,        VoidSymbol ] }; // c C 9
-    key <AB09>  { [        colon,                 slash,         VoidSymbol,       VoidSymbol ] }; //   : /
-    key <AB10>  { [       exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! backslash
-    key <SPCE>  { [        space,            underscore,              minus,       VoidSymbol ] }; //   ␣ _ -
-};
+    key <AB01>	{ [              w,                     W,                  7,        VoidSymbol ] }; // w W 7
+    key <AB02>	{ [              x,                     X,                  8,        VoidSymbol ] }; // x X 8
+    key <AB03>	{ [              c,                     C,                  9,        VoidSymbol ] }; // c C 9
+    key <AB09>  { [          colon,                 slash,         VoidSymbol,       VoidSymbol ] }; //   : /
+    key <AB10>  { [         exclam,             backslash,         VoidSymbol,       VoidSymbol ] }; //   ! backslash
+    key <SPCE>  { [          space,            underscore,              minus,       VoidSymbol ] }; //   ␣ _ -
+
     // Keypad (special symbols to be used for custom shortcuts)
     key <KP0>   { [         eacute,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
     key <KP1>   { [         egrave,          VoidSymbol,         VoidSymbol,       VoidSymbol ] };
